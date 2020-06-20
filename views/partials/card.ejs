@@ -1,0 +1,21 @@
+<div class="col-md-4">
+	<div class="card mb-4 shadow-sm">
+		<img src="<%= currentProduct.image %>" lass="bd-placeholder-img card-img-top" width="100%" height="300" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail" />
+		<div class="card-body">
+			<h3 class="card-title"><%= currentProduct.title %></h3>
+			<div class="card-text">
+				<p>Color: <%= currentProduct.color %></p>
+				<p>Size: <%= currentProduct.size %></p>
+				<p>Material: <%= currentProduct.material %></p>
+			</div>
+			<div class="d-flex justify-content-between align-items-center">
+				<div class="btn-group">
+					<!-- <a type="button" class="btn btn-sm btn-outline-secondary">View</a> -->
+					<!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+					<a href="/products/<%= currentProduct.id %> " class="btn btn-success">buy</a>
+				</div>
+				<p><%= currentProduct.price %> Toman</p>
+			</div>
+		</div>
+	</div>
+</div>

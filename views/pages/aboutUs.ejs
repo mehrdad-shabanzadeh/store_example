@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<%- include("../partials/head.ejs") %>
+	</head>
+	<body>
+		<%- include("../partials/navbar.ejs") %>
+		<!-- Main Content -->
+		<main class="container">
+			<h1>About us page</h1>
+			<h2>We are here</h2>
+			<div id="map" style="width: 100%; height: 400px;"></div>
+
+			<script>
+				function initMap() {
+					let map = new google.maps.Map(document.getElementById("map"), {
+						center: { lat: 32, lng: 53 },
+						zoom: 5,
+					});
+					let marker = new google.maps.Marker({
+						position: { lat: 35.69439, lng: 51.42151 },
+						map: map,
+					});
+				}
+			</script>
+		</main>
+		<!-- Main Content End -->
+		<%- include("../partials/footer.ejs") %>
+
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDq4GTtDVg3edLVyYyhb1-WE8eMDo9yZ_U&callback=initMap" async defer></script>
+	</body>
+</html>

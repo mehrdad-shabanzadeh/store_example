@@ -1,0 +1,61 @@
+[{
+        "id": 1,
+        "title": "Addidas Sport",
+        "color": "Gray",
+        "size": "42",
+        "material": "Cloth",
+        "image": "images/1.jpg",
+        "price": 100000,
+        "description": "addidas sport gray 42 cloth 100000"
+    },
+    {
+        "id": 2,
+        "title": "Nike",
+        "color": "Yellow",
+        "size": "45",
+        "material": "Cloth",
+        "image": "images/2.jpg",
+        "price": 150000,
+        "description": "nike yellow 45 cloth 150000"
+    },
+    {
+        "id": 3,
+        "title": "Bona Sport",
+        "color": "White",
+        "size": "43",
+        "material": "Wood",
+        "image": "images/3.jpg",
+        "price": 350000,
+        "description": "bona sport white 43 wood 350000"
+    },
+    {
+        "id": 4,
+        "title": "Lining Running",
+        "color": "Black",
+        "size": "41",
+        "material": "Comfortable",
+        "image": "images/4.jpg",
+        "price": 250000,
+        "description": "lining running black 41 comfortable 250000"
+    },
+    {
+        "id": 5,
+        "title": "Addidas Driving",
+        "color": "Black",
+        "size": "44",
+        "material": "Rubber",
+        "image": "images/5.jpg",
+        "price": 300000,
+        "description": "addidas driving black rubber 300000"
+    },
+    {
+        "id": 6,
+        "title": "Reebok Walking",
+        "color": "Black",
+        "size": "40",
+        "material": "Artificial Cloth",
+        "image": "images/6.jpg",
+        "price": 200000,
+        "description": "reebok walking black artificial cloth 200000"
+    }
+]

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<%- include("../partials/head.ejs") %>
+	</head>
+	<body>
+		<%- include("../partials/navbar.ejs") %>
+		<div class="album py-5 bg-light">
+			<div class="container">
+				<div class="row">
+					<!-- <h1>Welcome</h1> -->
+					<!-- loop for creating cards -->
+					<% for (let i = 0; i < productsJSON.length; i++) { %> <%- include("../partials/card.ejs", {currentProduct: productsJSON[i]}) %> <% } %>
+					<!-- loop end -->
+				</div>
+			</div>
+		</div>
+
+		<%- include("../partials/footer.ejs") %>
+	</body>
+</html>

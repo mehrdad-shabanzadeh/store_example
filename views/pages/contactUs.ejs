@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<%- include("../partials/head.ejs") %>
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+	</head>
+	<body>
+		<%- include("../partials/navbar.ejs") %>
+		<!-- Main Content -->
+		<main class="container">
+			<h1>Contact us</h1>
+
+			<form>
+				<div class="form-group">
+					<label for="exampleInputEmail1">Enter your email address please:</label>
+					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+				</div>
+				<div class="form-group">
+					<label for="exampleFormControlTextarea1">Write your message here:</label>
+					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</main>
+		<!-- Main Content End -->
+
+		<%- include("../partials/footer.ejs") %>
+	</body>
+</html>
